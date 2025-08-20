@@ -63,7 +63,10 @@ const CertificatePage = () => {
           font: await pdfDoc.embedFont(StandardFonts.HelveticaBold),
         });
 
-        const pdfBytes = await pdfDoc.save();
+        
+        const pdfBytesRaw = await pdfDoc.save();
+        // Convert to a plain Uint8Array for Blob compatibility
+        const pdfBytes = new Uint8Array(Array.from(pdfBytesRaw));
         const blob = new Blob([pdfBytes], { type: 'application/pdf' });
         const url = URL.createObjectURL(blob);
         setPdfUrl(url);
