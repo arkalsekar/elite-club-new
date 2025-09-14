@@ -10,7 +10,8 @@ export function ProfessionalRoadmap() {
       icon: Calendar,
       title: "Journey Begins",
       date: "September 2, 2024",
-      description: "The journey of the Elite Club began under the Department of Electronics and Computer Science Engineering."
+      description: "The journey of the Elite Club began under the Department of Electronics and Computer Science Engineering.",
+      completed: true
     },
     {
       icon: Users,
@@ -90,7 +91,7 @@ export function ProfessionalRoadmap() {
               
               {/* Content Card */}
               <Card className={`w-full sm:w-[calc(50%-2rem)] ${index % 2 === 0 ? 'sm:mr-auto' : 'sm:ml-auto'} hover:shadow-xl transition-shadow duration-300 bg-white`}>
-                <CardContent className="p-6">
+                <CardContent className="border-2 border-green-500 p-4 rounded-lg bg-green-50">
                   <div className="flex items-center mb-4">
                     <div className="rounded-full mr-4" style={{ backgroundColor: '#DBEAFE', padding: '0.75rem' }}>
                       <item.icon className="w-6 h-6" style={{ color: '#2563EB' }} />

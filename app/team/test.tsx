@@ -6,11 +6,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Briefcase, Facebook, Twitter, Linkedin, Github } from "lucide-react";
 import { realtimeDB } from '@/lib/firebaseConfig';
-import teamData from './teamData.json'; // Importing the local JSON file
 
 type TeamMember = {
   name: string;
-  bio: string;
   designation: string;
   image: string;
   socialMedia: {
@@ -19,6 +17,7 @@ type TeamMember = {
     linkedin?: string;
     github?: string;
   };
+  approved: boolean; // Added approved field
 }
 
 const SocialIcon = ({ platform, url }: { platform: keyof TeamMember['socialMedia'], url: string }) => {
@@ -40,11 +39,31 @@ const SocialIcon = ({ platform, url }: { platform: keyof TeamMember['socialMedia
 export default function TeamPage() {
   const [teamMembers, setTeamMembers] = useState<TeamMember[]>([]);
 
-  // Use a custom json for loading all the details
   useEffect(() => {
-    console.log("Loaded team data:", teamData);
-  }, []);
+    const teamRef = ref(realtimeDB, 'teams');
 
+    // Fetch team members from Firebase
+    onValue(teamRef, (snapshot) => {
+      const data = snapshot.val();
+      if (data) {
+        const members: TeamMember[] = Object.keys(data).map(key => ({
+          name: data[key].name,
+          designation: data[key].designation,
+          image: data[key].photoURL || '',
+          socialMedia: {
+            facebook: data[key].facebook,
+            twitter: data[key].twitter,
+            linkedin: data[key].linkedin,
+            github: data[key].github,
+          },
+          approved: data[key].approved || false, // Ensure to retrieve the approved field
+        })).filter(member => member.approved); // Filter to include only approved members
+
+        setTeamMembers(members);
+      }
+    });
+
+  }, []);
 
   return (
     <div className="container mx-auto px-4 py-16">
@@ -52,52 +71,7 @@ export default function TeamPage() {
         Our Elite Team
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-  {teamData.teamMembers.map((member, index) => (
-    <div key={index} className="group [perspective:1000px]">
-      <div className="relative h-80 w-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-        
-        {/* FRONT SIDE */}
-        <div className="absolute inset-0 bg-white shadow-lg rounded-2xl flex flex-col items-center justify-center p-6 [backface-visibility:hidden]">
-          <Avatar className="w-24 h-24 mb-4 ring-4 ring-[#0075FF] ring-opacity-50">
-            <AvatarImage src={member.image} alt={member.name} />
-            <AvatarFallback className="bg-[#0075FF] text-white text-2xl">
-              {member.name.split(' ').map((n) => n[0]).join('')}
-            </AvatarFallback>
-          </Avatar>
-          <h3 className="text-xl font-semibold text-[#0075FF] mb-1">
-            {member.name}
-          </h3>
-          <p className="text-gray-600 flex items-center">
-            <Briefcase className="mr-1" size={14} />
-            {member.designation}
-          </p>
-        </div>
-
-        {/* BACK SIDE */}
-        <div className="absolute inset-0 bg-[#0075FF] text-white shadow-lg rounded-2xl flex flex-col items-center justify-center p-6 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-          <h3 className="text-2xl font-bold mb-2">{member.name}</h3>
-          <p className="text-center">{member.bio}</p>
-          <div className="flex space-x-3 mt-4">
-            {Object.entries(member.socialMedia).map(([platform, url]) =>
-              url ? (
-                <SocialIcon
-                  key={platform}
-                  platform={platform as keyof TeamMember['socialMedia']}
-                  url={url}
-                />
-              ) : null
-            )}
-          </div>
-        </div>
-
-      </div>
-    </div>
-  ))}
-</div>
-
-
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {teamData.teamMembers.map((member, index) => (
+        {teamMembers.map((member, index) => (
           <Card key={index} className="bg-white shadow-lg hover:shadow-xl transition-all duration-300">
             <CardContent className="p-6 flex flex-col items-center">
               <Avatar className="w-32 h-32 mb-4 ring-4 ring-[#0075FF] ring-opacity-50">
@@ -121,7 +95,7 @@ export default function TeamPage() {
             </CardContent>
           </Card>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 }

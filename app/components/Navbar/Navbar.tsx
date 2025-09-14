@@ -7,8 +7,8 @@ import Drawerdata from "./Drawerdata";
 import Signdialog from "./Signdialog";
 import Registerdialog from "./Registerdialog";
 import Image from 'next/image';
-import { auth } from "../../../lib/firebaseConfig"; 
-import { onAuthStateChanged, signOut, User } from "firebase/auth"; 
+import { auth } from "../../../lib/firebaseConfig";
+import { onAuthStateChanged, signOut, User } from "firebase/auth";
 
 interface NavigationItem {
     name: string;
@@ -20,7 +20,7 @@ const navigation: NavigationItem[] = [
     { name: 'Home', href: '/', current: true },
     { name: 'About', href: '/about', current: false },
     { name: 'Team', href: '/team', current: false },
-    { name: 'Certificate', href: '/verifyCertificate', current: false },
+    // { name: 'Certificate', href: '/verifyCertificate', current: false },
     { name: 'Gallery', href: '/gallery', current: false },
 ];
 
@@ -30,7 +30,7 @@ function classNames(...classes: string[]) {
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [user, setUser] = useState<User | null>(null); 
+    const [user, setUser] = useState<User | null>(null);
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
@@ -113,8 +113,18 @@ const Navbar = () => {
                             </>
                         ) : (
                             <>
-                                <Signdialog />
-                                <Registerdialog />
+                                {/* <Signdialog /> */}
+                                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:pr-0">
+                                    <div className='hidden lg:block'>
+                                        <button
+                                            className="text-blue text-lg font-medium ml-9 py-5 px-16 transition duration-150 ease-in-out leafbutton bg-lightblue hover:text-white hover:bg-blue"
+                                            onClick={()=>{window.open("https://elite-lms.vercel.app")}}
+                                            
+                                        >
+                                            Join us
+                                        </button>
+                                    </div>
+                                </div>
                             </>
                         )}
                     </div>

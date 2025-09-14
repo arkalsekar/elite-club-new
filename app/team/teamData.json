@@ -1,0 +1,31 @@
+{
+    "teamMembers": [
+        {
+        "name": "Umar Sayyad Mustafa",
+        "bio": "Hi, I'm Umar Sayyed, a TE student in Electronics and Computer Science Engineering. I'm currently serving as the President of the Elite Club, where I'm passionate about leading initiatives that foster growth, innovation, and community engagement among students. Let's connect and make a difference together!",
+        "designation": "President",
+        "image": "/assets/member/umar_new.jpg",
+        "socialMedia": {
+            "facebook": "https://facebook.com/arkalsekar",
+            "twitter": "https://twitter.com/arkalsekar",
+            "linkedin": "https://www.linkedin.com/in/umar-sayyed-4603a7373",
+            "github": "https://github.com/arkalsekar"   
+        },
+        "approved": true
+        },
+        {
+        "name": "Abdul Rehman Kalsekar",
+        "bio": "A dedicated team member with expertise in Web Development | AI | Data Science.",
+        "designation": "Technical Lead",
+        "image": "/assets/member/arkalsekar.jpg",
+        "socialMedia": {
+            "facebook": "https://facebook.com/arkalsekar",
+            "twitter": "https://twitter.com/arkalsekar",
+            "linkedin": "https://linkedin.com/in/arkalsekar",
+            "github": "https://github.com/arkalsekar"   
+        },
+        "approved": true
+        }
+
+    ]
+}
