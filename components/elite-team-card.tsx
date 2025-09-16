@@ -15,34 +15,26 @@ type TeamMember = {
 export function EliteTeamCardComponent() {
   const [teamMembers] = useState<TeamMember[]>([
     {
-      name: 'Aqsa Shah',
+      name: 'Umar Sayyed',
       designation: 'President',
-      image: '/assets/member/aqsa.jpeg',
+      image: '/assets/member/2025/umar_new.jpg',
     },
     {
-      name: 'Mudassir',
-      designation: 'Technical lead',
-      image: '/assets/member/1.png',
+      name: 'Rayyan Rawal',
+      designation: 'Vice President',
+      image: '',
     },
     {
-      name: 'Anish',
-      designation: '',
-      image: '/assets/member/anish.png',
+      name: 'Mohd Kaif',
+      designation: 'Secretary',
+      image: '',
     },
     {
-      name: 'Yamini Jadav',
-      designation: 'Finance Lead ',
-      image: '/assets/member/yamini.jpeg',
-    },{
-      name: 'faizan',
-      designation: 'Finance Lead ',
-      image: '/assets/member/faizan.jpeg',
-    },{
-      name: 'umar',
-      designation: ' ',
-      image: '/umar.jpeg',
+      name: 'Abdul Rehman Kalsekar',
+      designation: 'Technical Lead',
+      image: '/assets/member/2025/abdulrehman.jpg',
     },
-   
+
   ])
 
   return (

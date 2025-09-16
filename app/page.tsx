@@ -16,24 +16,19 @@ export default function Home() {
   return (
     <main>
       <Banners />
-      <ProfessionalRoadmap/>
+      <ProfessionalRoadmap />
       {/* <Banners/> */}
 
-  <VisionMission/>
-        <EliteTeamCardComponent/>
-      <Buyers />
-       
-    
-     <br /><br /><br /><br /><br /><br /><br />
-      <FacultySection/>
+      <VisionMission />
+      <EliteTeamCardComponent />
+      {/* <Buyers /> */}
 
+      <FacultySection />
 
-
-      
       {/* <Newsletter /> */}
-     
- 
-      
+
+
+
     </main>
   )
 }
