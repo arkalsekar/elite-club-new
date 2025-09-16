@@ -2,50 +2,62 @@
     {
       icon: Calendar,
       title: "Journey Begins",
-      date: "September 2, 2024",
-      description: "The journey of the Elite Club began under the Department of Electronics and Computer Science Engineering.",
+      date: "July 23, 2025",
+      description: "The journey of the Elite Club takes next step at 23rd July with its Department Orientation.",
       completed: true
     },
     {
       icon: Users,
       title: "Engineer's Day Celebration",
-      date: "September 15, 2024",
-      description: "Engineers' Day celebration featuring competitions: Poster Making, Project Presentation, and Debate."
+      date: "July 25, 2024",
+      description: "28th July Club Coordinator, Leads Meeting And Installation."
     },
     {
       icon: Building,
       title: "Industrial Visit",
-      date: "September 27, 2024",
-      description: "The Elite Club organized an industrial visit to Reliance Jio."
+      date: "September 27, 2025",
+      description: "21 Augest - Hands-on Session IoT & Cloud Computing By Dr. Riyaz Pathan & Mr. Salman Ansari."
     },
     {
       icon: PartyPopper,
       title: "Fresher's Party",
       date: "October 5, 2024",
-      description: "A vibrant Fresher's Party to welcome first-year students into the department."
+      description: "29th Augest- Domain Specific Meeting For Students By Prof. Ismaeel Shaikh on 30/08/2025 (Online)."
     },
     {
       icon: Code,
       title: "Expert Session on DSA & WT",
       date: "October 2024",
-      description: "Expert session on Data Structures and Algorithms (DSA) and Web Technologies (WT)."
+      description: "16-17 sept WT 2 days Workshop (Abdul salam sir)"
     },
     {
       icon: Laptop,
       title: "Full Stack Bootcamp",
       date: "January 2025",
-      description: "One-week bootcamp on full-stack development, covering web design, coding, and deployment."
+      description: "Hands-on Cyber Security (Networking)."
     },
     {
       icon: Trophy,
       title: "1ST Mega Hackathon",
       date: "February 2025",
-      description: "First mega event: a 15-day hackathon focusing on both hardware and software domains."
+      description: "15th Sept.- Anxiety & Coping Skills by Meraj Mir."
     },
     {
       icon: GraduationCap,
       title: "Expert Academics Lecture",
       date: "Upcoming Events 2025",
-      description: "Expert lectures to assist students in academic excellence."
+      description: "18th Oct Expert Talk on Software Testing and Quality Assurance."
+    },
+    {
+      icon: GraduationCap,
+      title: "Expert Academics Lecture",
+      date: "Upcoming Events 2025",
+      description: "Expert talk on Phishing attack by Mahekh"
+    },
+    {
+      icon: GraduationCap,
+      title: "Expert Academics Lecture",
+      date: "Upcoming Events 2025",
+      description: "4th Oct Experts Session On AI/ML"
     }
   ]
