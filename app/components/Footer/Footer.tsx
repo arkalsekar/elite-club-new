@@ -36,9 +36,12 @@ const footer = () => {
                             <Link href="https://twitter.com" className='footer-icons'>
                                 <Image src={'/assets/footer/twitter.svg'} alt="twitter" width={20} height={20} />
                             </Link>
-                            <Link href="https://instagram.com" className='footer-icons'>
+                            <Link href="https://www.instagram.com/elite_club.aiktc" className='footer-icons'>
                                 <Image src={'/assets/footer/instagram.svg'} alt="instagram" width={20} height={20} />
-                            </Link> 
+                            </Link>
+                             <Link href="https://www.linkedin.com/in/the-elite-club-925406380" className='footer-icons'>
+                                <Image src={'/assets/footer/linkedin.svg'} alt="instagram" width={20} height={20} />
+                            </Link>
                         </div>
                     </div>
 

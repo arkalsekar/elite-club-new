@@ -25,6 +25,45 @@
             "github": "https://github.com/arkalsekar"   
         },
         "approved": true
+        },
+        {
+        "name": "Shaikh Mohd Arsan",
+        "bio": "A dedicated team member with expertise in Web Development | AIML | Promp tEngineering.",
+        "designation": "Technical Lead",
+        "image": "/assets/member/arsansk.jpg",
+        "socialMedia": {
+            "facebook": "https://facebook.com/Arsan Shaikh",
+            "twitter": "https://twitter.com/Shaikh_Arsan09",
+            "linkedin": "https://linkedin.com/in/arsan-sk",
+            "github": "https://github.com/arsan-sk"   
+        },
+        "approved": true
+        },
+        {
+            "name": "Yamini Jadav",
+            "bio": "A dedicated team member with expertise in Finance | Marketing | Management.",
+            "designation": "Finance Lead",
+            "image": "/assets/member/yamini.jpeg",
+            "socialMedia": {
+                "facebook": "https://facebook.com/yamini.jadav.7",
+                "twitter": "https://twitter.com/YaminiJadav12",
+                "linkedin": "https://www.linkedin.com/in/yamini-jadav-5b4b2522a",
+                "github": ""   
+            },
+            "approved": true          
+        },
+        {
+            "name": "Sadiya Shaikh",
+            "bio": "A dedicated team member with expertise in AIML | Data Science | Research.",
+            "designation": "AIML domain lead",
+            "image": "/assets/member/sadiya_shaikh.png",
+            "socialMedia": {
+                "facebook": "https://facebook.com/sadiya.shaikh.754",
+                "twitter": "https://twitter.com/SadiyaS56789012",
+                "linkedin": "https://www.linkedin.com/in/sadiya-shaikh-958b3523a",
+                "github": "https://github.com/sadiya1305"   
+            },
+            "approved": true          
         }
 
     ]
