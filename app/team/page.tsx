@@ -90,7 +90,7 @@ export default function TeamPage() {
                   <div className="absolute inset-0 bg-[#0075FF] text-white shadow-lg rounded-2xl flex flex-col items-center justify-center p-6 [transform:rotateY(180deg)] [backface-visibility:hidden]">
                     <h3 className="text-xl font-bold mb-2">{member.name}</h3>
                     <p className="text-center text-sm">{member.bio}</p>
-                    <div className="flex space-x-3 mt-4">
+                    {/* <div className="flex space-x-3 mt-4">
                       {Object.entries(member.socialMedia).map(([platform, url]) =>
                         url ? (
                           <SocialIcon
@@ -100,7 +100,7 @@ export default function TeamPage() {
                           />
                         ) : null
                       )}
-                    </div>
+                    </div> */}
                   </div>
 
                 </div>
