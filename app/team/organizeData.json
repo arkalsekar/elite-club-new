@@ -1,0 +1,170 @@
+{
+  "elite": [
+    {
+      "name": "Umar Sayyad Mustafa",
+      "designation": "President",
+      "bio": "Hi, I'm Umar Sayyed, a TE student in Electronics and Computer Science Engineering. I'm currently serving as the President of the Elite Club, where I'm passionate about leading initiatives that foster growth, innovation, and community engagement among students. Let's connect and make a difference together!",
+      "image": "/assets/member/umar_new.jpg",
+      "socialMedia": {
+        "facebook": "https://facebook.com/arkalsekar",
+        "twitter": "https://twitter.com/arkalsekar",
+        "linkedin": "https://www.linkedin.com/in/umar-sayyed-4603a7373",
+        "github": "https://github.com/arkalsekar"
+      }
+    },
+    {
+      "name": "Mohd Kaif",
+      "designation": "Secretary",
+      "bio": "Dummy bio for Secretary.",
+      "image": "/assets/member/kaif.jpg",
+      "socialMedia": {
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "#",
+        "github": "#"
+      }
+    }
+  ],
+  "technical": [
+    {
+      "name": "Abdul Rehman Kalsekar",
+      "designation": "Technical Lead",
+      "bio": "A dedicated team member with expertise in Web Development | AI | Data Science.",
+      "image": "/assets/member/arkalsekar.jpg",
+      "socialMedia": {
+        "facebook": "https://facebook.com/arkalsekar",
+        "twitter": "https://twitter.com/arkalsekar",
+        "linkedin": "https://linkedin.com/in/arkalsekar",
+        "github": "https://github.com/arkalsekar"
+      }
+    },
+    {
+      "name": "Shaikh Mohd Arsan",
+      "designation": "Technical Lead",
+      "bio": "A dedicated team member with expertise in Web Development | AIML | Promp tEngineering.",
+      "image": "/assets/member/arsansk.jpg",
+      "socialMedia": {
+        "facebook": "https://facebook.com/Arsan Shaikh",
+        "twitter": "https://twitter.com/Shaikh_Arsan09",
+        "linkedin": "https://linkedin.com/in/arsan-sk",
+        "github": "https://github.com/arsan-sk"
+      }
+    },
+    {
+      "name": "Kazi Khadija Mubin",
+      "designation": "Technical Co-ordinator",
+      "bio": "Future Engineer passionate about growth, innovation, and exploration.",
+      "image": "/assets/member/khadija-kazi.jpg",
+      "socialMedia": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "linkedin": "https://www.linkedin.com/in/khadija-kazi-aa783a342",
+        "github": "https://github.com/kazikhadija45"
+      }
+    }
+  ],
+  "design": [
+    {
+      "name": "Mansoori Palak Mohd.Shaheed",
+      "designation": "Design Lead",
+      "bio": "I enjoy working with Figma and Framer, exploring animations, and making visuals that bring ideas to life while keeping them fun and interactive.",
+      "image": "/assets/member/aarushi-jain.jpg",
+      "socialMedia": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com/",
+        "linkedin": "http://linkedin.com/in/palak-mansoori-875279385",
+        "github": "https://github.com/"
+      }
+    },
+    {
+      "name": "Nuzhat Hashmatali",
+      "designation": "Design Coordinator",
+      "bio": "I communicate through visuals that I create.",
+      "image": "/assets/member/nuzhat-nevrekar.jpeg",
+      "socialMedia": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "linkedin": "https://www.linkedin.com/in/",
+        "github": "https://github.com/"
+      }
+    }
+  ],
+  "marketing": [
+    {
+      "name": "Sara Aman Bade",
+      "designation": "Marketting Lead",
+      "bio": "Exploring the art of marketing while leading the Marketing Team at Elite Club – connecting ideas, people, and experiences.",
+      "image": "/assets/member/sara-bade.jpeg",
+      "socialMedia": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "linkedin": "https://www.linkedin.com/in/sara-bade-847a6733a",
+        "github": "https://github.com/"
+      }
+    },
+    {
+      "name": "Zaid Khan",
+      "designation": "Marketing Lead",
+      "bio": "Learning and implementing the art of marketing with continues experince experiments and hardwork.",
+      "image": "/assets/member/zaid-khan.png",
+      "socialMedia": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "linkedin": "https://www.linkedin.com/in/zaidkhan70",
+        "github": "https://github.com/zaidkhan70"
+      }
+    },
+    {
+      "name": "Mohd Danish Farooq Shaikh",
+      "designation": "Marketting Lead",
+      "bio": "Sattire Is My Attire",
+      "image": "/assets/member/aarushi-jain.jpg",
+      "socialMedia": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "linkedin": "https://www.linkedin.com/in/danish-shaikh-478687311",
+        "github": "https://github.com/"
+      }
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Naik Zainul Abeddin Yusuf",
+      "designation": "Documentation Lead",
+      "bio": "Zainul Naik is an enthusiastic Electronics and Computer Science engineering student with a passion for IoT, automation, and innovative tech projects.",
+      "image": "/assets/member/zain-naik.jpg",
+      "socialMedia": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "linkedin": "https://www.linkedin.com/in/",
+        "github": "https://github.com/Charlie1545"
+      }
+    }
+  ],
+  "aiml": [
+    {
+      "name": "Sadiya Shaikh",
+      "designation": "AIML domain lead",
+      "bio": "A dedicated team member with expertise in AIML | Data Science | Research.",
+      "image": "/assets/member/sadiya_shaikh.png",
+      "socialMedia": {
+        "facebook": "https://facebook.com/sadiya.shaikh.754",
+        "twitter": "https://twitter.com/SadiyaS56789012",
+        "linkedin": "https://www.linkedin.com/in/sadiya-shaikh-958b3523a",
+        "github": "https://github.com/sadiya1305"
+      }
+    },
+    {
+      "name": "Aasmiya Abdul Kadir Phatak",
+      "designation": "AI/ML Domain Lead",
+      "bio": "Bridging algorithms and imagination — leading the AI/ML domain to innovate, inspire, and implement AI-powered ideas.",
+      "image": "/assets/member/aasmiya-phatak.jpg",
+      "socialMedia": {
+        "facebook": "https://facebook.com/",
+        "twitter": "https://twitter.com/",
+        "linkedin": "https://www.linkedin.com/in/aasmiya-phatak-83a6262bb",
+        "github": "https://github.com/"
+      }
+    }
+  ]
+}
