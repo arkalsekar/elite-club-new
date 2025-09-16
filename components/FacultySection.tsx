@@ -21,7 +21,7 @@ const facultyMembers: FacultyMember[] = [
     role: "Head of the Department",
     department: "Electronics and Computer Science",
     isHOD: true,
-    image: "/assets/member/3.png" // Image for Head of Department
+    image: "/assets/member/hod.jpg" // Image for Head of Department
   },
   {
     name: "Prof Ismail",

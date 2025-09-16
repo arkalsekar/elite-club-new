@@ -58,7 +58,7 @@ export default function TeamPage() {
         
         {/* FRONT SIDE */}
         <div className="absolute inset-0 bg-white shadow-lg rounded-2xl flex flex-col items-center justify-center p-6 [backface-visibility:hidden]">
-          <Avatar className="w-24 h-24 mb-4 ring-4 ring-[#0075FF] ring-opacity-50">
+          <Avatar className="w-40 h-40 mb-4 ring-4 ring-[#0075FF] ring-opacity-50">
             <AvatarImage src={member.image} alt={member.name} />
             <AvatarFallback className="bg-[#0075FF] text-white text-2xl">
               {member.name.split(' ').map((n) => n[0]).join('')}
