@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Briefcase, Facebook, Twitter, Linkedin, Github } from "lucide-react";
-import organizedData from './organizeData.json'; // grouped JSON
+import teamData from './organizeData.json'; // Importing the local JSON file
 
 type TeamMember = {
   name: string;
@@ -26,227 +26,91 @@ const SocialIcon = ({ platform, url }: { platform: keyof TeamMember['socialMedia
     linkedin: Linkedin,
     github: Github
   };
-  
   const Icon = icons[platform];
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#0075FF] transition-colors">
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-400 hover:text-[#0075FF] transition-colors"
+    >
       <Icon className="h-4 w-4" />
     </a>
   );
 };
 
-const headings: Record<string, string> = {
-  elite: "Light of Elite",
-  technical: "Technical Leads",
-  design: "Design Team",
-  marketing: "Marketing Team",
-  documentation: "Documentation Team",
-  aiml: "AI/ML Domain Leads"
-};
-
 export default function TeamPage() {
   useEffect(() => {
-    console.log("Loaded organized data:", organizedData);
+    console.log("Loaded team data:", teamData);
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-16 space-y-20">
-      {Object.entries(headings).map(([key, heading]) => {
-        const members = organizedData[key as keyof typeof organizedData] || [];
-        if (!members.length) return null;
+    <div className="container mx-auto px-4 py-16">
+      <h2 className="text-3xl font-bold text-center text-[#0075FF] mb-12">
+        Our Elite Team
+      </h2>
 
-        return (
-          <section key={key}>
-            <h2
-              className={`text-3xl font-bold text-center mb-12 ${
-                key === "elite"
-                  ? "text-[#0075FF] drop-shadow-lg underline decoration-4 decoration-[#0075FF]"
-                  : "text-[#0075FF]"
-              }`}
-            >
-              {heading}
-            </h2>
+      {/* Loop over each designation */}
+      {Object.entries(teamData.teamMembers[0]).map(([designation, members]) => (
+        <div key={designation} className="mb-16">
+          {/* Section Heading */}
+          <h2 className="text-2xl font-bold text-center text-[#0075FF] mb-8">
+            {designation}
+          </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-              {members.map((member, index) => (
-                <div key={index} className="group [perspective:1000px]">
-                  <div className="relative h-80 w-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                    
-                    {/* FRONT SIDE */}
-                    <div className="absolute inset-0 bg-white shadow-lg rounded-2xl flex flex-col items-center justify-center p-6 [backface-visibility:hidden]">
-                      <Avatar className="w-24 h-24 mb-4 ring-4 ring-[#0075FF] ring-opacity-50">
-                        <AvatarImage src={member.image} alt={member.name} />
-                        <AvatarFallback className="bg-[#0075FF] text-white text-2xl">
-                          {member.name.split(' ').map((n) => n[0]).join('')}
-                        </AvatarFallback>
-                      </Avatar>
-                      <h3 className="text-xl font-semibold text-[#0075FF] mb-1">
+          {/* Members Row */}
+          <div className="flex justify-center flex-wrap gap-8">
+            {(members as any[]).map((member, index) => (
+              <div
+                key={index}
+                className="group [perspective:1000px] w-72"
+              >
+                <div className="relative h-80 w-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                  
+                  {/* FRONT SIDE */}
+                  <div className="absolute inset-0 bg-white shadow-lg rounded-2xl flex flex-col items-center justify-center p-6 [backface-visibility:hidden]">
+                    <Avatar className="w-32 h-32 mb-4 ring-4 ring-[#0075FF] ring-opacity-50">
+                      <AvatarImage src={member.image} alt={member.name} />
+                      <AvatarFallback className="bg-[#0075FF] text-white text-2xl">
+                        {member.name.split(' ').map((n: string) => n[0]).join('')}
+                      </AvatarFallback>
+                    </Avatar>
+
+                    {/* Name + Designation wrapper with fixed min height */}
+                    <div className="flex flex-col items-center justify-center min-h-[56px] text-center gap-1">
+                      <h3 className="text-lg font-semibold text-[#0075FF] leading-tight">
                         {member.name}
                       </h3>
-                      <p className="text-gray-600 flex items-center">
-                        <Briefcase className="mr-1" size={14} />
+                      <p className="text-gray-600 flex items-center justify-center text-sm leading-tight">
+                        <Briefcase className="mr-1 flex-shrink-0" size={14} />
                         {member.designation}
                       </p>
                     </div>
-
-                    {/* BACK SIDE */}
-                    <div className="absolute inset-0 bg-[#0075FF] text-white shadow-lg rounded-2xl flex flex-col items-center justify-center p-6 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                      <h3 className="text-2xl font-bold mb-2">{member.name}</h3>
-                      <p className="text-center">{member.bio}</p>
-                      <div className="flex space-x-3 mt-4">
-                        {Object.entries(member.socialMedia).map(([platform, url]) =>
-                          url ? (
-                            <SocialIcon
-                              key={platform}
-                              platform={platform as keyof TeamMember['socialMedia']}
-                              url={url}
-                            />
-                          ) : null
-                        )}
-                      </div>
-                    </div>
-
                   </div>
+
+                  {/* BACK SIDE */}
+                  <div className="absolute inset-0 bg-[#0075FF] text-white shadow-lg rounded-2xl flex flex-col items-center justify-center p-6 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <h3 className="text-xl font-bold mb-2">{member.name}</h3>
+                    <p className="text-center text-sm">{member.bio}</p>
+                    {/* <div className="flex space-x-3 mt-4">
+                      {Object.entries(member.socialMedia).map(([platform, url]) =>
+                        url ? (
+                          <SocialIcon
+                            key={platform}
+                            platform={platform as keyof typeof member.socialMedia}
+                            url={url}
+                          />
+                        ) : null
+                      )}
+                    </div> */}
+                  </div>
+
                 </div>
-              ))}
-            </div>
-          </section>
-        );
-      })}
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
-
-
-
-
-//-----------------------------------------------------------------------
-//                used organize data instead of normal data Above
-//-----------------------------------------------------------------------
-// 'use client'
-
-// import { useEffect, useState } from 'react';
-// import { ref, onValue } from 'firebase/database';
-// import { Card, CardContent } from "@/components/ui/card";
-// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-// import { Briefcase, Facebook, Twitter, Linkedin, Github } from "lucide-react";
-// import { realtimeDB } from '@/lib/firebaseConfig';
-// import teamData from './teamData.json'; // Importing the local JSON file
-
-// type TeamMember = {
-//   name: string;
-//   bio: string;
-//   designation: string;
-//   image: string;
-//   socialMedia: {
-//     facebook?: string;
-//     twitter?: string;
-//     linkedin?: string;
-//     github?: string;
-//   };
-// }
-
-// const SocialIcon = ({ platform, url }: { platform: keyof TeamMember['socialMedia'], url: string }) => {
-//   const icons = {
-//     facebook: Facebook,
-//     twitter: Twitter,
-//     linkedin: Linkedin,
-//     github: Github
-//   };
-  
-//   const Icon = icons[platform];
-//   return (
-//     <a href={url} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#0075FF] transition-colors">
-//       <Icon className="h-4 w-4" />
-//     </a>
-//   );
-// }
-
-// export default function TeamPage() {
-//   const [teamMembers, setTeamMembers] = useState<TeamMember[]>([]);
-
-//   // Use a custom json for loading all the details
-//   useEffect(() => {
-//     console.log("Loaded team data:", teamData);
-//   }, []);
-
-
-//   return (
-//     <div className="container mx-auto px-4 py-16">
-//       <h2 className="text-3xl font-bold text-center text-[#0075FF] mb-12">
-//         Our Elite Team
-//       </h2>
-//       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-//   {teamData.teamMembers.map((member, index) => (
-//     <div key={index} className="group [perspective:1000px]">
-//       <div className="relative h-80 w-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-        
-//         {/* FRONT SIDE */}
-//         <div className="absolute inset-0 bg-white shadow-lg rounded-2xl flex flex-col items-center justify-center p-6 [backface-visibility:hidden]">
-//           <Avatar className="w-24 h-24 mb-4 ring-4 ring-[#0075FF] ring-opacity-50">
-//             <AvatarImage src={member.image} alt={member.name} />
-//             <AvatarFallback className="bg-[#0075FF] text-white text-2xl">
-//               {member.name.split(' ').map((n) => n[0]).join('')}
-//             </AvatarFallback>
-//           </Avatar>
-//           <h3 className="text-xl font-semibold text-[#0075FF] mb-1">
-//             {member.name}
-//           </h3>
-//           <p className="text-gray-600 flex items-center">
-//             <Briefcase className="mr-1" size={14} />
-//             {member.designation}
-//           </p>
-//         </div>
-
-//         {/* BACK SIDE */}
-//         <div className="absolute inset-0 bg-[#0075FF] text-white shadow-lg rounded-2xl flex flex-col items-center justify-center p-6 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-//           <h3 className="text-2xl font-bold mb-2">{member.name}</h3>
-//           <p className="text-center">{member.bio}</p>
-//           <div className="flex space-x-3 mt-4">
-//             {Object.entries(member.socialMedia).map(([platform, url]) =>
-//               url ? (
-//                 <SocialIcon
-//                   key={platform}
-//                   platform={platform as keyof TeamMember['socialMedia']}
-//                   url={url}
-//                 />
-//               ) : null
-//             )}
-//           </div>
-//         </div>
-
-//       </div>
-//     </div>
-//   ))}
-// </div>
-
-
-//       {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-//         {teamData.teamMembers.map((member, index) => (
-//           <Card key={index} className="bg-white shadow-lg hover:shadow-xl transition-all duration-300">
-//             <CardContent className="p-6 flex flex-col items-center">
-//               <Avatar className="w-32 h-32 mb-4 ring-4 ring-[#0075FF] ring-opacity-50">
-//                 <AvatarImage src={member.image} alt={member.name} />
-//                 <AvatarFallback className="bg-[#0075FF] text-white text-2xl">
-//                   {member.name.split(' ').map(n => n[0]).join('')}
-//                 </AvatarFallback>
-//               </Avatar>
-//               <h3 className="text-xl font-semibold text-[#0075FF] mb-1">{member.name}</h3>
-//               <p className="text-gray-600 mb-4 flex items-center">
-//                 <Briefcase className="mr-1" size={14} />
-//                 {member.designation}
-//               </p>
-//               <div className="flex space-x-3">
-//                 {Object.entries(member.socialMedia).map(([platform, url]) => (
-//                   url ? (
-//                     <SocialIcon key={platform} platform={platform as keyof TeamMember['socialMedia']} url={url} />
-//                   ) : null
-//                 ))}
-//               </div>
-//             </CardContent>
-//           </Card>
-//         ))}
-//       </div> */}
-//     </div>
-//   );
-// }
