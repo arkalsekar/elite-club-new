@@ -30,9 +30,15 @@ export function EliteTeamCardComponent() {
       { name: 'Sayyad Umar', designation: 'President', image: '/assets/member/umar_sayyad.webp' },
       { name: 'Abdul Rehman Kalsekar', designation: 'Technical Lead', image: '/assets/member/abdul-rehman-kalsekar.jpg' },
       { name: 'Shaikh Mohd Arsan', designation: 'Technical Lead', image: '/assets/member/arsansk.jpg' },
+      { name: 'kazi khadija Mubin', designation: 'Vice President', image: '/assets/member/khadija-kazi.jpg' },
+      { name: 'Kaskar Hasan', designation: 'Cyber Security domain lead', image: '/assets/member/kaskar-hasan.jpg' },
+      { name: 'Adnan Ansari', designation: 'Cyber Security domain lead', image: '/assets/member/adnan.jpeg' },
       { name: 'Yamini Jadav', designation: 'Finance Lead', image: '/assets/member/yamini.jpeg' },
       { name: 'Sadiya Shaikh', designation: 'AIML domain lead', image: '/assets/member/sadiya_shaikh.png' },
-    ],
+      { name: 'Aasmiya Phatak', designation: 'AIML domain lead', image: '/assets/member/aasmiya-phatak.jpg' },
+      { name: 'Zaid Khan', designation: 'Marketing Lead', image: '/assets/member/zaid-khan.png' },
+      { name: 'Faizan Shaikh', designation: 'Finance Lead', image: '/assets/member/faizan.jpeg' },
+      ],
   })
 
   const [selectedGen, setSelectedGen] = useState<keyof TeamGeneration>("Gen-1")
