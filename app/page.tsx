@@ -21,10 +21,10 @@ export default function Home() {
 
   <VisionMission/>
         <EliteTeamCardComponent/>
-      <Buyers />
+      {/* <Buyers /> */}
        
     
-     <br /><br /><br /><br /><br /><br /><br />
+     {/* <br /><br /><br /><br /><br /><br /><br /> */}
       <FacultySection/>
 
 
