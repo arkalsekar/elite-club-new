@@ -28,14 +28,14 @@ export function EliteTeamCardComponent() {
     ],
     "Gen-1": [
       { name: 'Sayyad Umar', designation: 'President', image: '/assets/member/umar_sayyad.webp' },
-      { name: 'Abdul Rehman Kalsekar', designation: 'Technical Lead', image: '/assets/member/arkalsekar.jpg' },
+      { name: 'Abdul Rehman Kalsekar', designation: 'Technical Lead', image: '/assets/member/abdul-rehman-kalsekar.jpg' },
       { name: 'Shaikh Mohd Arsan', designation: 'Technical Lead', image: '/assets/member/arsansk.jpg' },
       { name: 'Yamini Jadav', designation: 'Finance Lead', image: '/assets/member/yamini.jpeg' },
       { name: 'Sadiya Shaikh', designation: 'AIML domain lead', image: '/assets/member/sadiya_shaikh.png' },
     ],
   })
 
-  const [selectedGen, setSelectedGen] = useState<keyof TeamGeneration>("Gen-0")
+  const [selectedGen, setSelectedGen] = useState<keyof TeamGeneration>("Gen-1")
   const generations = Object.keys(teamMembers)
 
   return (
