@@ -181,15 +181,15 @@
                     "approved": true
                 },
                 {
-                    "name": "Chougule Zarin Ashraf",
-                    "bio": "",
+                    "name": "Chougle Zarin Ashraf",
+                    "bio": "Full Stack Developer and Documentation Lead with a knack for building user-friendly solutions and fostering teamwork. Excited to contribute to innovation and knowledge-sharing in our club.",
                     "designation": "Documentation Lead",
-                    "image": "",
+                    "image": "/assets/member/zarin-chougle.png",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
-                        "linkedin": "",
-                        "github": ""
+                        "linkedin": "www.linkedin.com/in/zarinchougle",
+                        "github": "https://github.com/ZarinChougle"
                     },
                     "approved": true
                 }
@@ -290,6 +290,19 @@
                 }
             ],
             "Full Stack Domain Leads": [
+                                {
+                    "name": "Khan Md Asif Altaf",
+                    "bio": "",
+                    "designation": "Full Stack Domain Lead",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                },
                 {
                     "name": "Yamini Rajendra Jadhav",
                     "bio": "",
@@ -304,28 +317,15 @@
                     "approved": true
                 },
                 {
-                    "name": "Chougule Zarin Ashraf",
-                    "bio": "",
-                    "designation": "Full Stack Domain Lead",
-                    "image": "",
+                    "name": "Chougle Zarin Ashraf",
+                    "bio": "Full Stack Developer and Documentation Lead with a knack for building user-friendly solutions and fostering teamwork. Excited to contribute to innovation and knowledge-sharing in our club.",
+                    "designation": "Documentation Lead",
+                    "image": "/assets/member/zarin-chougle.png",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
-                        "linkedin": "",
-                        "github": ""
-                    },
-                    "approved": true
-                },
-                {
-                    "name": "Khan Md Asif Altaf",
-                    "bio": "",
-                    "designation": "Full Stack Domain Lead",
-                    "image": "",
-                    "socialMedia": {
-                        "facebook": "",
-                        "twitter": "",
-                        "linkedin": "",
-                        "github": ""
+                        "linkedin": "www.linkedin.com/in/zarinchougle",
+                        "github": "https://github.com/ZarinChougle"
                     },
                     "approved": true
                 }
