@@ -107,7 +107,7 @@ export function ProfessionalRoadmap() {
             >
               {/* Dot on the timeline */}
               <div
-                className="absolute left-4 sm:left-1/2 w-4 h-4 rounded-full z-10 shadow-md"
+                className="absolute left-4 sm:left-1/2 w-4 h-4 rounded-full z-5 shadow-md"
                 style={{ backgroundColor: '#2563EB' }}
               />
 
