@@ -1,0 +1,362 @@
+{
+    "teamMembers": [
+        {
+            "Presidents": [
+                {
+                    "name": "Umar Sayyad Mustafa",
+                    "bio": "Hi, I'm Umar Sayyed, a TE student in Electronics and Computer Science Engineering. I'm currently serving as the President of the Elite Club, where I'm passionate about leading initiatives that foster growth, innovation, and community engagement among students. Let's connect and make a difference together!",
+                    "designation": "President",
+                    "image": "/assets/member/2025/umar_new.jpg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Rayyan Rawal",
+                    "bio": "",
+                    "designation": "Vice President",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                }
+            ],
+            "Secretary": [
+                {
+                    "name": "Khan Mohd. Kaif",
+                    "bio": "",
+                    "designation": "Secretary",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Rakhangi Mustakim Mushtaq",
+                    "bio": "",
+                    "designation": "Jt. Secretary",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Khan Sohail Salim",
+                    "bio": "",
+                    "designation": "Jt. Secretary",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                }
+            ],
+            "Technical Leads": [
+                {
+                    "name": "Abdul Rehman Kalsekar",
+                    "bio": "Passionate Developer with expertise in Full Stack, AI/ML, and Electronics Engineering. Committed to crafting innovative solutions and driving technological advancements.",
+                    "designation": "Technical Lead",
+                    "image": "/assets/member/2025/abdulrehman.jpg",
+                    "socialMedia": {
+                        "facebook": "https://facebook.com/arkalsekar",
+                        "twitter": "https://twitter.com/arkalsekar",
+                        "linkedin": "https://linkedin.com/in/arkalsekar",
+                        "github": "https://github.com/arkalsekar"
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Shaikh Mohd Arsan Abdul Sattar",
+                    "bio": "A dedicated team member with expertise in Web Development | AIML | Promp tEngineering",
+                    "designation": "Technical Lead",
+                    "image": "/assets/member/2025/arsan.png",
+                    "socialMedia": {
+                        "facebook": "https://facebook.com/Arsan Shaikh",
+                        "twitter": "https://twitter.com/Shaikh_Arsan09",
+                        "linkedin": "https://linkedin.com/in/arsan-sk",
+                        "github": "https://github.com/arsan-sk"
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Kazi Khadija Mubin",
+                    "bio": "Future Engineer passionate about growth, innovation, and exploration.",
+                    "designation": "Technical Lead",
+                    "image": "/assets/member/2025/khadija.jpg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "https://www.linkedin.com/in/khadija-kazi-aa783a342",
+                        "github": "https://github.com/kazikhadija45"
+                    },
+                    "approved": true
+                }
+            ],
+            "Design Leads": [
+                {
+                    "name": "Shaikh Faris Ayub",
+                    "bio": "",
+                    "designation": "Design Lead",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Mansoori Palak Mohdshaheed",
+                    "bio": "I enjoy working with Figma and Framer, exploring animations, and making visuals that bring ideas to life while keeping them fun and interactive.",
+                    "designation": "Design Lead",
+                    "image": "/assets/member/2025/palak.jpg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "http://linkedin.com/in/palak-mansoori-875279385",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Nevrekar Nuzhat Hashmatali",
+                    "bio": "I communicate through visuals that I create",
+                    "designation": "Design Lead",
+                    "image": "/assets/member/2025/nuzhat.jpeg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": "https://github.com/NuzhatHashmatali"
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Malik Eram Nisar",
+                    "bio": "",
+                    "designation": "Design Lead",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                }
+            ],
+            "Documentation Leads": [
+                {
+                    "name": "Zain Naik",
+                    "bio": "Zainul Naik is an enthusiastic Electronics and Computer Science engineering student with a passion for IoT, automation, and innovative tech projects. He has worked on projects like Home Automation with ESP8266 and Virtual Fencing for Cows, showcasing his interest in practical, real-world solutions. Zainul is also an active team player, contributing to event planning and documentation for programs like “Cash or Crash,” and enjoys exploring creative ideas and collaborative learning opportunities.",
+                    "designation": "Documentation Lead",
+                    "image": "/assets/member/2025/zain.jpg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": "https://github.com/Charlie1545"
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Chougule Zarin Ashraf",
+                    "bio": "",
+                    "designation": "Documentation Lead",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                }
+            ],
+            "Marketing Leads": [
+                {
+                    "name": "Bade Sara Aman",
+                    "bio": "Exploring the art of marketing while leading the Marketing Team at Elite Club – connecting ideas, people, and experiences.",
+                    "designation": "Marketing Lead",
+                    "image": "/assets/member/2025/sara.jpeg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "https://www.linkedin.com/in/sara-bade-847a6733a",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Khan Zaid Ejaz",
+                    "bio": "Learning and implementing",
+                    "designation": "Marketing Lead",
+                    "image": "/assets/member/2025/zaid_2.jpg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "https://www.linkedin.com/in/zaidkhan70",
+                        "github": "https://github.com/zaidkhan70"
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Khan Mshabna Rajmohammad",
+                    "bio": "",
+                    "designation": "Marketing Lead",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Shaikh Mohd Danish Farooq",
+                    "bio": "Sattire Is My Attire",
+                    "designation": "Marketing Lead",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "https://www.linkedin.com/in/danish-shaikh-478687311",
+                        "github": ""
+                    },
+                    "approved": true
+                }
+            ],
+            "AI/ML Domain Leads": [
+                {
+                    "name": "Shaikh Sadiya Siraj",
+                    "bio": "Hi, I’m Sadiya Shaikh, the AI/ML Lead at the Elite Club of our ECS Department. I’m deeply interested in artificial intelligence, machine learning, and robotics. I enjoy exploring how technology can be used to solve real-world problems and I’m always excited to learn, build, and share ideas with others.",
+                    "designation": "AI/ML Domain Lead",
+                    "image": "/assets/member/2025/sadiya.png",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "https://www.linkedin.com/in/sadiya-shaikh-2953b4290",
+                        "github": "https://github.com/sadiya1305"
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Aasmiya Abdul Kadir Phatak",
+                    "bio": "Bridging algorithms and imagination — leading the AI/ML domain to innovate, inspire, and implement AI-powered ideas.",
+                    "designation": "AI/ML Domain Lead",
+                    "image": "/assets/member/2025/aasmiya.jpg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "https://www.linkedin.com/in/aasmiya-phatak-83a6262bb",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Khan Maaz Shakeel",
+                    "bio": "",
+                    "designation": "AI/ML Domain Lead",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                }
+            ],
+            "Full Stack Domain Leads": [
+                {
+                    "name": "Yamini Rajendra Jadhav",
+                    "bio": "",
+                    "designation": "Full Stack Domain Lead",
+                    "image": "/assets/member/2025/yamini.jpeg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Chougule Zarin Ashraf",
+                    "bio": "",
+                    "designation": "Full Stack Domain Lead",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Khan Md Asif Altaf",
+                    "bio": "",
+                    "designation": "Full Stack Domain Lead",
+                    "image": "",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                }
+            ],
+            "Cyber Security Domain Leads": [
+                {
+                    "name": "Sayyed Umar Mustafa",
+                    "bio": "",
+                    "designation": "Cyber Security D. Lead",
+                    "image": "/assets/member/2025/umar_new.jpg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "",
+                        "linkedin": "",
+                        "github": ""
+                    },
+                    "approved": true
+                },
+                {
+                    "name": "Kaskar M Hasan Ibrahim",
+                    "bio": "Might be a slow learner but a fun guy, Skribbl master and a good chef. I can cook food but not meth. Yes but I did cook math in sem 3 and 4 , after maths cooked me in sem 1 and 2.  A failed youtuber but a binge watcher. A big fan of nana patekar. ",
+                    "designation": "Cyber Security D. Lead",
+                    "image": "/assets/member/2025/kaskar.jpg",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "https://x.com/@imhk_hasan",
+                        "linkedin": "https://www.linkedin.com/in/mhasan1910",
+                        "github": "https://github.com/MrHasanCoder"
+                    },
+                    "approved": true
+                }
+            ]
+        }
+    ]
+}
