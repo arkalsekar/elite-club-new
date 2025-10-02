@@ -7,20 +7,20 @@
                     "name": "Umar Sayyad Mustafa",
                     "bio": "Hi, I'm Umar Sayyed, a TE student in Electronics and Computer Science Engineering. I'm currently serving as the President of the Elite Club, where I'm passionate about leading initiatives that foster growth, innovation, and community engagement among students. Let's connect and make a difference together!",
                     "designation": "President",
-                    "image": "/assets/member/umar_sayyad.webp",
+                    "image": "/assets/member/2025/umar_new.jpg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
-                        "linkedin": "",
+                        "linkedin": "https://www.linkedin.com/in/umar-sayyed-4603a7373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
                         "github": ""
                     },
                     "approved": true
                 },
                 {
-                    "name": "Rayyan Rawal",
-                    "bio": "",
+                    "name": "Rayan Manzoor Rawal",
+                    "bio": "Driven by Leadership, vision and creativity with a strong interest in entrepreneurship, digital innovation, and impactful solutions.",
                     "designation": "Vice President",
-                    "image": "",
+                    "image": "/assets/member/2025/rayyan.jpeg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -46,9 +46,9 @@
                 },
                 {
                     "name": "Rakhangi Mustakim Mushtaq",
-                    "bio": "",
+                    "bio": "I’m Mustakim Rakhangi , currently serving as the Joint Secretary of our departmental club. I’m passionate about learning, teamwork, and building a strong community among students. Through this role, I aim to contribute to organizing impactful events, encouraging active participation, and supporting initiatives that help us grow both academically and personally.",
                     "designation": "Jt. Secretary",
-                    "image": "",
+                    "image": "/assets/member/2025/mustakim-rakhangi.png",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -76,7 +76,7 @@
                     "name": "Abdul Rehman Kalsekar",
                     "bio": "Passionate Developer with expertise in Full Stack, AI/ML, and Electronics Engineering. Committed to crafting innovative solutions and driving technological advancements.",
                     "designation": "Technical Lead",
-                    "image": "/assets/member/abdul-rehman-kalsekar.jpg",
+                    "image": "/assets/member/2025/abdul-rehman-kalsekar.jpg",
                     "socialMedia": {
                         "facebook": "https://facebook.com/arkalsekar",
                         "twitter": "https://twitter.com/arkalsekar",
@@ -87,9 +87,9 @@
                 },
                 {
                     "name": "Shaikh Mohd Arsan Abdul Sattar",
-                    "bio": "A dedicated team member with expertise in Web Development | AIML | Promp tEngineering",
+                    "bio": "A dedicated team member with expertise in Web Development | AIML | Promp tEngineering.",
                     "designation": "Technical Lead",
-                    "image": "/assets/member/arsansk.jpg",
+                    "image": "/assets/member/2025/arsansk.jpg",
                     "socialMedia": {
                         "facebook": "https://facebook.com/Arsan Shaikh",
                         "twitter": "https://twitter.com/Shaikh_Arsan09",
@@ -102,7 +102,7 @@
                     "name": "Kazi Khadija Mubin",
                     "bio": "Future Engineer passionate about growth, innovation, and exploration.",
                     "designation": "Technical Lead",
-                    "image": "/assets/member/khadija-kazi.jpg",
+                    "image": "/assets/member/2025/khadija-kazi.jpg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -115,9 +115,9 @@
             "Design Leads": [
                 {
                     "name": "Shaikh Faris Ayub",
-                    "bio": "",
+                    "bio": "I’m a passionate graphic designer with a strong eye for creativity and detail. Alongside my mdesign skills, I have some knowledge of web development and design, which helps me bring ideas to life digitally. With good leadership qualities, I enjoy working in teams and guiding projects toward success",
                     "designation": "Design Lead",
-                    "image": "",
+                    "image": "/assets/member/2025/faris.jpeg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -143,7 +143,7 @@
                     "name": "Nevrekar Nuzhat Hashmatali",
                     "bio": "I communicate through visuals that I create",
                     "designation": "Design Lead",
-                    "image": "/assets/member/nuzhat-nevrekar.jpeg",
+                    "image": "/assets/member/2025/nuzhat-nevrekar.jpeg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -171,7 +171,7 @@
                     "name": "Zain Naik",
                     "bio": "Zainul Naik is an enthusiastic Electronics and Computer Science engineering student with a passion for IoT, automation, and innovative tech projects. He has worked on projects like Home Automation with ESP8266 and Virtual Fencing for Cows, showcasing his interest in practical, real-world solutions. Zainul is also an active team player, contributing to event planning and documentation for programs like “Cash or Crash,” and enjoys exploring creative ideas and collaborative learning opportunities.",
                     "designation": "Documentation Lead",
-                    "image": "/assets/member/zain-naik.jpg",
+                    "image": "/assets/member/2025/zain-naik.jpg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -184,7 +184,7 @@
                     "name": "Chougle Zarin Ashraf",
                     "bio": "Full Stack Developer and Documentation Lead with a knack for building user-friendly solutions and fostering teamwork. Excited to contribute to innovation and knowledge-sharing in our club.",
                     "designation": "Documentation Lead",
-                    "image": "/assets/member/zarin-chougle.png",
+                    "image": "/assets/member/2025/zarin-chougle.png",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -199,7 +199,7 @@
                     "name": "Bade Sara Aman",
                     "bio": "Exploring the art of marketing while leading the Marketing Team at Elite Club – connecting ideas, people, and experiences.",
                     "designation": "Marketing Lead",
-                    "image": "/assets/member/sara-bade.jpeg",
+                    "image": "/assets/member/2025/sara-bade.jpeg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -212,7 +212,7 @@
                     "name": "Khan Zaid Ejaz",
                     "bio": "Learning and implementing",
                     "designation": "Marketing Lead",
-                    "image": "/assets/member/zaid-khan.png",
+                    "image": "/assets/member/2025/zaid-khan.png",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -222,10 +222,10 @@
                     "approved": true
                 },
                 {
-                    "name": "Khan Mshabna Rajmohammad",
-                    "bio": "",
+                    "name": "Shabnam Rajmohommad khan",
+                    "bio": "I am shabnam Rajmohommad khan.i am pursuing my undergraduate degree in btech, I am very passionate and dedicated person in work,my hobbies including dancing, Cooking, traveling ",
                     "designation": "Marketing Lead",
-                    "image": "",
+                    "image": "/assets/member/2025/khan-shabnam.jpg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -249,11 +249,24 @@
                 }
             ],
             "AI/ML Domain Leads": [
+                 {
+                    "name": "Khan Maaz Shakeel",
+                    "bio": "I’m a Third-Year Electronics and Computer Science Engineering Student, passionate about Full-Stack Development and Applied AI. Currently building skills to become an AI Engineer, with a strong interest in combining Software Engineering and Intelligent Systems.",
+                    "designation": "AI/ML Domain Lead",
+                    "image": "/assets/member/2025/khan-maaz.png",
+                    "socialMedia": {
+                        "facebook": "",
+                        "twitter": "https://x.com/maazk8448",
+                        "linkedin": "https://www.linkedin.com/in/khan-maaz-shakeel-5506a7247/",
+                        "github": "https://github.com/MaazKhan-29"
+                    },
+                    "approved": true
+                },
                 {
                     "name": "Shaikh Sadiya Siraj",
                     "bio": "Hi, I’m Sadiya Shaikh, the AI/ML Lead at the Elite Club of our ECS Department. I’m deeply interested in artificial intelligence, machine learning, and robotics. I enjoy exploring how technology can be used to solve real-world problems and I’m always excited to learn, build, and share ideas with others.",
                     "designation": "AI/ML Domain Lead",
-                    "image": "/assets/member/sadiya_shaikh.png",
+                    "image": "/assets/member/2025/sadiya_shaikh.png",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -266,24 +279,11 @@
                     "name": "Aasmiya Abdul Kadir Phatak",
                     "bio": "Bridging algorithms and imagination — leading the AI/ML domain to innovate, inspire, and implement AI-powered ideas.",
                     "designation": "AI/ML Domain Lead",
-                    "image": "/assets/member/aasmiya-phatak.jpg",
+                    "image": "/assets/member/2025/aasmiya-phatak.jpg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
                         "linkedin": "https://www.linkedin.com/in/aasmiya-phatak-83a6262bb",
-                        "github": ""
-                    },
-                    "approved": true
-                },
-                {
-                    "name": "Khan Maaz Shakeel",
-                    "bio": "",
-                    "designation": "AI/ML Domain Lead",
-                    "image": "",
-                    "socialMedia": {
-                        "facebook": "",
-                        "twitter": "",
-                        "linkedin": "",
                         "github": ""
                     },
                     "approved": true
@@ -292,14 +292,14 @@
             "Full Stack Domain Leads": [
                                 {
                     "name": "Khan Md Asif Altaf",
-                    "bio": "",
+                    "bio": "I'm pursuing my third year in Electronics and Computer Science Engineering, with a keen enthusiasm for Full-Stack Development and Applied AI. My goal is to develop expertise as an AI Engineer, focusing on integrating software engineering with intelligent systems – an area I'm deeply passionate about, driving me to continually build and enhance my skills in this fusion of technologies.",
                     "designation": "Full Stack Domain Lead",
-                    "image": "",
+                    "image": "/assets/member/2025/mohd-asif.png",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
-                        "linkedin": "",
-                        "github": ""
+                        "linkedin": "https://www.linkedin.com/in/mohd-asif-khan-678423211",
+                        "github": "https://github.com/asifkhan7060"
                     },
                     "approved": true
                 },
@@ -307,7 +307,7 @@
                     "name": "Yamini Rajendra Jadhav",
                     "bio": "",
                     "designation": "Full Stack Domain Lead",
-                    "image": "/assets/member/yamini.jpeg",
+                    "image": "/assets/member/2025/yamini.jpeg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -320,7 +320,7 @@
                     "name": "Chougle Zarin Ashraf",
                     "bio": "Full Stack Developer and Documentation Lead with a knack for building user-friendly solutions and fostering teamwork. Excited to contribute to innovation and knowledge-sharing in our club.",
                     "designation": "Documentation Lead",
-                    "image": "/assets/member/zarin-chougle.png",
+                    "image": "/assets/member/2025/zarin-chougle.png",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "",
@@ -333,14 +333,14 @@
             "Cyber Security Domain Leads": [
                 {
                     "name": "Ansari Mohd Adnan",
-                    "bio": "",
+                    "bio": "I’m Ansari Mohd Adnan, passionate about learning Cybersecurity and exploring the potential of Artificial Intelligence. I enjoy building my skills, staying curious, and working towards becoming a tech professional in these fields.",
                     "designation": "Cyber Security D. Lead",
-                    "image": "/assets/member/adnan.jpeg",
+                    "image": "/assets/member/2025/adnan.jpeg",
                     "socialMedia": {
                         "facebook": "",
-                        "twitter": "",
-                        "linkedin": "",
-                        "github": ""
+                        "twitter": "https://x.com/MohdAdnan040",
+                        "linkedin": "https://www.linkedin.com/in/ansari-adnan",
+                        "github": "https://github.com/Mohdadnan14"
                     },
                     "approved": true
                 },
@@ -348,7 +348,7 @@
                     "name": "Kaskar M Hasan Ibrahim",
                     "bio": "Might be a slow learner but a fun guy, Skribbl master and a good chef. I can cook food but not meth. Yes but I did cook math in sem 3 and 4 , after maths cooked me in sem 1 and 2.  A failed youtuber but a binge watcher. A big fan of nana patekar. ",
                     "designation": "Cyber Security D. Lead",
-                    "image": "/assets/member/kaskar-hasan.jpg",
+                    "image": "/assets/member/2025/kaskar-hasan.jpg",
                     "socialMedia": {
                         "facebook": "",
                         "twitter": "https://x.com/@imhk_hasan",

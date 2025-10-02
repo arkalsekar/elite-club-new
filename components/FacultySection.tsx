@@ -14,20 +14,20 @@ const facultyMembers: FacultyMember[] = [
     name: "Prof Riyaz Pathan",
     role: "Faculty",
     department: "Electronics and Computer Science Department",
-    image: "/assets/member/2.png" // Image for faculty
+    image: "/assets/member/faculty/riyaz.png" // Image for faculty
   },
   {
     name: "Bandanawaz Kotiyal",
     role: "Head of the Department",
     department: "Electronics and Computer Science",
     isHOD: true,
-    image: "/assets/member/hod.png" // Image for Head of Department
+    image: "/assets/member/faculty/hod.png" // Image for Head of Department
   },
   {
     name: "Prof Ismail",
     role: "Faculty",
     department: "Electronics and Computer Science Department",
-    image: "/assets/member/3.png" // Image for faculty
+    image: "/assets/member/faculty/ismail.png" // Image for faculty
   }
 ]
 
